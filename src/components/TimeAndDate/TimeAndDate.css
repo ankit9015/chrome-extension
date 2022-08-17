@@ -1,0 +1,52 @@
+.fontEnhanced {
+  font-weight: 700;
+  font-family: "Fredoka One", cursive;
+}
+
+.hoursAndMinutesInfo {
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.hoursAndMinutesHoverText {
+  visibility: hidden;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0;
+  right: -2rem;
+  border: 1px solid black;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  font-family: "Harmattan", sans-serif;
+}
+
+.hoursAndMinutesInfo:hover .hoursAndMinutesHoverText {
+  visibility: visible;
+}
+
+.usernameGreetings {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 670px) {
+  .hoursAndMinutesInfo {
+    font-size: 8rem;
+    line-height: 1;
+  }
+  .usernameGreetings {
+    font-size: 3.75rem;
+    line-height: 1;
+    margin: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hoursAndMinutesInfo {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
