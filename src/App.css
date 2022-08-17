@@ -1,0 +1,17 @@
+.App {
+  background: none;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}

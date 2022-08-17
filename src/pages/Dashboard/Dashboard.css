@@ -1,0 +1,36 @@
+.dashboard_page_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(135, 133, 133, 0.499);
+  height: min-content;
+  width: min-content;
+  min-width: 50%;
+  max-width: 80vw;
+  padding: 0 3rem;
+  z-index: 10;
+  box-sizing: border-box;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 10rem;
+  overflow: hidden;
+}
+.quote_container {
+  left: 50vw;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 3.5rem;
+}
+.settings_container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(83, 81, 81, 0.718);
+  padding: 1rem;
+  border: 1px solid;
+}
+.date_time_container {
+  font: size 1.875rem;
+  line-height: 2rem;
+}

@@ -1,0 +1,94 @@
+.goal_title_question {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-family: "Harmattan", sans-serif;
+}
+
+.goal_input {
+  font-weight: 400;
+  font-family: "Harmattan", sans-serif;
+  text-align: center;
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 0.15rem solid #fff;
+  margin: 1.5rem 0;
+  padding: 0 2.5rem;
+  color: #fff;
+  min-width: 60%;
+}
+.goal_input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.goal_input::placeholder {
+  color: #fff;
+}
+
+.current_goal_container {
+  display: flex;
+  font-size: 2rem;
+  width: max-content;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.current_goal_input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.current_goal_title {
+  font-size: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-family: "Harmattan", sans-serif;
+}
+
+.goal_completion_check {
+  appearance: none;
+  margin-top: 0.5rem;
+  font: inherit;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.15rem solid white;
+  border-radius: 0.2rem;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.goal_completion_check::before {
+  content: "";
+  width: 0.65rem;
+  height: 0.65rem;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1rem 1rem white;
+}
+.goal_completion_check:checked::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+.goal_action_icons {
+  font-size: 1.3rem;
+  align-self: flex-end;
+  gap: 2rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.completed_goal {
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 670px) {
+  .goal_title_question,
+  .goal_input {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}

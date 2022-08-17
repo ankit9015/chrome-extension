@@ -1,0 +1,44 @@
+.new-user-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(135, 133, 133, 0.499);
+  min-height: 50vh;
+  width: fit-content;
+  max-width: 80vw;
+  padding: 3rem;
+  z-index: 10;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10rem;
+  overflow: hidden;
+}
+
+.new-user-page input {
+  border: transparent;
+  background: transparent;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Harmattan", sans-serif;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  border-bottom: 0.15rem solid #fff;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.4rem;
+  line-height: 3rem;
+  max-width: 80%;
+  box-sizing: border-box;
+}
+
+.new-user-page input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.new-user-page input::placeholder {
+  color: inherit;
+  font-size: 1.6rem;
+}
