@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { GoalState } from "./DailyGoal.types";
 import "./DailyGoal.css";
 import { useBrowser } from "../../context";
