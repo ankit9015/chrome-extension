@@ -4,7 +4,7 @@ import { capitalizeString } from "../../utils";
 import "./NewUserPage.css";
 
 function NewUserPage() {
-  const { user, setUser } = useBrowser();
+  const { setUser } = useBrowser();
   const [username, setUsername] = useState("");
   const submitEventHandler = (submitEvent: React.SyntheticEvent) => {
     submitEvent.preventDefault();
