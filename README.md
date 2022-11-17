@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# Chrome Extension
+A Browser Extension which enables the users to develop a productive outlook towards day to day activities. Can be used through desktop based browsers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+Install and Run Locally in 4 simple steps:
+```
+  $ git clone https://github.com/ankit9015/chrome-extension.git
+  $ cd chrome-extension
+  $ npm install
+  $ npm start
+  ```
 
-## Available Scripts
+## Features
+- User Onboarding Page
+- Dashboard
+  - Beautiful backrounds on every refresh
+  - Big Clock at center. Displays time in 12hr and 24hr Format
+  - Greets user according to the time of day
+  - User can add Main Focus of the Day
+  - Random Quote with Author on every refresh
+  - Current Weather based on User's Location .
+  - Option to change name of the user with auto focus reset i.e. if the name gets changed then the user would be prompted to provide a new focus for the new name.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built with -
+- React JS and Typescript
+- CSS Modules
